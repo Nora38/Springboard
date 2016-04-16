@@ -1,0 +1,34 @@
+1. Income ineqaulity
+(Maybe this is better as a data story)
+Often it is quoted that women make 80 cents to the Dollar compared to men. However many of my friends (the ones that know) don't feel their income ineqaulity is that big compared to their direct peers. I'm curious how much this differs per occupation, age and other factors wqay into it. The questions I would like to anwer are:
+* How much is the income ineqaulity for different occupational groups
+* How much is the income ineqaulity for different age groups, if so is this consistent over time
+* If we correct for all other factors how much is the corected income ineqaulity
+Also can I recreate these results: 
+http://www.nytimes.com/2016/03/20/upshot/as-women-take-over-a-male-dom...
+
+data:
+download.bls.gov - /pub/time.series/le/
+http://download.bls.gov/pub/time.series/le/le.series
+
+2. What foods go well together according to public opinion
+When people post pictures of their food online can we extract what popular combinations there are. f.i. pizza&anchovies or mushroom&tagliettelle. 
+I could use this to build a nice infographic or visualisation on
+
+data: 
+I'll need a list of food ingredients and possible extra attributes (such as, is it vegetable, meat, sweet, etc) (there are several online if you look for food & calories)
+I'll need to extraxt the post related to food from a social media site or other online behaviour, f.i. twitter API or google trends
+
+3. suggest songs to add to playlist based on other playlists
+Spotify and Deezer both allow you to start a radio with 1 song or 1 artist but not this often misses the mark when an artist has some songs you like but many you don't. I'd like to see if it gets better when you don't use 1 song but several. So say you have a playlist with 10 songs and you're curious to see what other 10 songs fit with that music. 
+Deezer has an API for this. That data can be used to find out what songs are "similar" based on whether they appear in playlists together or not. 
+
+data: 
+http://apassant.net/2014/10/27/500000-deezer-playlists-google-big-query/
+
+4. The price of wine
+Can we predict how good a wine is based on the weather for that region.
+
+data:
+public historic weather data, still need to find a source
+wine price data of of the liv ex wine exchange (available as xlsx download but as there is data on many regions I will hopefully only need a few years
