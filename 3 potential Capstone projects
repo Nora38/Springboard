@@ -5,10 +5,10 @@ Often it is quoted that women make 80 cents to the Dollar compared to men. Howev
 * How much is the income ineqaulity for different age groups, if so is this consistent over time
 * If we correct for all other factors how much is the corected income ineqaulity
 Also can I recreate these results: 
-http://www.nytimes.com/2016/03/20/upshot/as-women-take-over-a-male-dom...
+http://www.nytimes.com/2016/03/20/upshot/as-women-take-over-a-male-dominated-field-the-pay-drops.html
 
 data:
-download.bls.gov - /pub/time.series/le/
+download.bls.gov/pub/time.series/le/
 http://download.bls.gov/pub/time.series/le/le.series
 
 2. What foods go well together according to public opinion
