@@ -31,4 +31,5 @@ Can we predict how good a wine is based on the weather for that region.
 
 data:
 public historic weather data, still need to find a source
+https://donneespubliques.meteofrance.fr
 wine price data of of the liv ex wine exchange (available as xlsx download but as there is data on many regions I will hopefully only need a few years
