@@ -21,10 +21,12 @@ I'll need to extraxt the post related to food from a social media site or other 
 
 3. suggest songs to add to playlist based on other playlists
 Spotify and Deezer both allow you to start a radio with 1 song or 1 artist but not this often misses the mark when an artist has some songs you like but many you don't. I'd like to see if it gets better when you don't use 1 song but several. So say you have a playlist with 10 songs and you're curious to see what other 10 songs fit with that music. 
-Deezer has an API for this. That data can be used to find out what songs are "similar" based on whether they appear in playlists together or not. 
+Deezer has an API for this. That data can be used to find out what songs are "similar" based on whether they appear in playlists together or not. It can be augmented with data from the 1 million songs databases
+Methods used can be collaborative filtering or similarity metrics such as genre, artist, year
 
 data: 
 http://apassant.net/2014/10/27/500000-deezer-playlists-google-big-query/
+1 million tracks
 
 4. The price of wine
 Can we predict how good a wine is based on the weather for that region.

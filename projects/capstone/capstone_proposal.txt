@@ -1,0 +1,16 @@
+Playlist suggestions
+
+When I create playlists in Spotify I always dislike how you can't start a radio based on that playlist, only on 1 song or 1 artist. But this works very poorly if, like me, your taste is quite random and you only like some songs of that artist but not all. Or if you want to discover new music with the same "feel".
+That is why I personally love the idea of an playlist that you can get suggestions for, say for instance you put your 10 favourite morning songs in a playlist wouldn't it be great if you automatically could get many similar songs added?
+
+This is why, for people like me, I want to build somehting that does just that. If you put in a few songs it will give you several new recommendations based on those songs. Who knows, maybe one day it'll be implemented by any of the big music streaming companies, but for now I want to make it publicly available for whoever wants to enjoy music. 
+
+Method:
+Data size will be an issue since it has to fit on my computer. I might need to take a smart sample for it to work
+I will use data that I will get from this API, it contains playlist with their songs and titles:
+
+I will combine it with this data, it contains many extra attributes on songs such as artist, title, genre, year, reviews, it also contains some similarity metrics:
+
+
+A collaborative filtering algorithm based on the playlist will probably be a good method to start with, however it might overrepresent popular songs, this might not be so bad as they are popular songs but adjusting for that (maybe with some bayesian approach) might improve the relevance of the suggestions. 
+Secondly the metadata can provide good similarity metrics that can be added. I can either do that based on intuition (f.i. favour same genre, same period, etc) but I'd rather train it based on data. Either based on similarity data or based on what songs often occur together in playlists together.
