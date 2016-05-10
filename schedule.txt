@@ -1,0 +1,21 @@
+18-04:programm boot-up, come up with ideas for capstone project
+25-04:in NL, not much time 
+02-05:data wrangling
+--
+09-05:(4) finalize data story, finalize capstone proposal
+16-05:half week in new Orleans and Florida
+23-05:(5.1-5.2) code along with statistical inference, hypothesis testing
+30-05:(5.3, 6) exploritory data analysis, get started on milestone report for capstone project
+06-06:Moving house
+13-06:(6) finalize capstone milestone report
+20-06:(7.1,8) regression I, data extraction for capstone project
+27-06:(7.1,8) regression II, data extraction for capstone project
+04-07:(7.1,8) SVM and trees I and data cleaning capstone project
+11-07:(7.1,8) SVM and trees II and data cleaning capstone project
+18-07:(7.1,8) Bayesian methods and text I and start simple predictive model for capstone project
+25-07:(7.1,8) Bayesian methods and text II and start simple predictive model for capstone project
+01-08:(7.1,8) best practices & recommender systems elective. Apply recommender system to capstone project data
+08-08:(7.2) unsupervised learning
+15-08:(8) Capstone project
+22-08:(8) Capstone project
+29-08:finish!
