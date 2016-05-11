@@ -8,9 +8,10 @@ This is why, for people like me, I want to build somehting that does just that. 
 Method:
 Data size will be an issue since it has to fit on my computer. I might need to take a smart sample for it to work
 I will use data that I will get from this API, it contains playlist with their songs and titles:
-
+http://apassant.net/2014/10/27/500000-deezer-playlists-google-big-query/
 I will combine it with this data, it contains many extra attributes on songs such as artist, title, genre, year, reviews, it also contains some similarity metrics:
-
+http://labrosa.ee.columbia.edu/millionsong/pages/getting-dataset
+https://www.kaggle.com/c/msdchallenge/data
 
 A collaborative filtering algorithm based on the playlist will probably be a good method to start with, however it might overrepresent popular songs, this might not be so bad as they are popular songs but adjusting for that (maybe with some bayesian approach) might improve the relevance of the suggestions. 
 Secondly the metadata can provide good similarity metrics that can be added. I can either do that based on intuition (f.i. favour same genre, same period, etc) but I'd rather train it based on data. Either based on similarity data or based on what songs often occur together in playlists together.
