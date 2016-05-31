@@ -6,7 +6,7 @@ That is why I personally love the idea of an playlist that you can get suggestio
 This is why, for people like me, I want to build somehting that does just that. If you put in a few songs it will give you several new recommendations based on those songs. Who knows, maybe one day it'll be implemented by any of the big music streaming companies, but for now I want to make it publicly available for whoever wants to enjoy music. 
 
 Method:
-Data size will be an issue since it has to fit on my computer. I might need to take a smart sample for it to work
+Data size will be an issue since it has to fit on my computer. I might need to take a smaller sample for it to work
 I will use data that I will get from this API, it contains playlist with their songs and titles:
 http://apassant.net/2014/10/27/500000-deezer-playlists-google-big-query/
 I will combine it with this data, it contains many extra attributes on songs such as artist, title, genre, year, reviews, it also contains some similarity metrics:
